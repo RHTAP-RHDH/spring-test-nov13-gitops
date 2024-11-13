@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: spring-test-nov13-gitops-repository
+spec:
+  url: https://github.com/RHTAP-RHDH/spring-test-nov13-gitops
